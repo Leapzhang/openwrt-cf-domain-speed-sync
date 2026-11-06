@@ -1,0 +1,3 @@
+# Add with crontab -e, then run /etc/init.d/cron restart
+*/30 * * * * /root/openwrt-cf-domain-speed-sync/start.sh >/dev/null 2>&1
+
